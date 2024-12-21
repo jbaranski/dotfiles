@@ -1,5 +1,5 @@
 export PATH=/opt/homebrew/bin:$PATH
-export PATH=/opt/homebrew/opt/python@3.12/bin:$PATH
+export PATH=/opt/homebrew/opt/python@3.13/bin:$PATH
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home
 
@@ -14,3 +14,13 @@ alias update_theme="rm -f ~/.oh-my-zsh/themes/jeff.zsh-theme && curl --output-di
 
 alias bright="osascript -e 'tell application \"System Events\"' -e 'key code 144' -e ' end tell'"
 alias b="repeat 10 { bright }"
+
+alias bat="bat --no-paging $1"
+
+alias gitmaster="git checkout master && git pull origin master"
+alias gitmain="git checkout main && git pull origin main"
+alias gitbranch="f() { git branch \$1; git checkout \$1; }; f"
+alias gitbranchdel="git branch | grep -v "master" | grep -v "main" | xargs git branch -D"
+
+source <(fzf --zsh)
+FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --exact'
