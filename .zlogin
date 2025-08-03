@@ -25,3 +25,6 @@ alias gitbranchdel="git branch | grep -v "master" | grep -v "main" | xargs git b
 
 source <(fzf --zsh)
 FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --exact'
+
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
