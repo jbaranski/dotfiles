@@ -2,8 +2,6 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/opt/python@3.13/bin:$PATH
 export PATH=~/.local/bin:$PATH
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home
-
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
