@@ -1,6 +1,8 @@
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/opt/python@3.13/bin:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
@@ -26,3 +28,5 @@ FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --exact'
 
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+GRAALVM_HOME=/Users/jeff/.sdkman/candidates/java/21-graalce/bin/java
