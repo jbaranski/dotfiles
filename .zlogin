@@ -3,7 +3,6 @@ export PATH=/opt/homebrew/opt/python@3.13/bin:$PATH
 export PATH=~/.local/bin:$PATH
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
-
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
