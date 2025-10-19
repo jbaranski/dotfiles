@@ -1,0 +1,12 @@
+session: homelab
+
+windows:
+  - name: newport
+    root: ~
+    commands:
+      - ssh jeff@192.168.77.5
+
+  - name: turkishroyal
+    root: ~
+    commands:
+      - ssh admin@192.168.88.1
