@@ -1,6 +1,9 @@
 session: homelab
 
 windows:
+  - name: local
+    root: ~
+
   - name: newport
     root: ~
     commands:
