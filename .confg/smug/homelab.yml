@@ -9,6 +9,11 @@ windows:
     commands:
       - ssh jeff@192.168.77.5
 
+  - name: turkishsilver
+    root: ~
+    commands:
+      - ssh jeff@192.168.66.5
+
   - name: turkishroyal
     root: ~
     commands:
