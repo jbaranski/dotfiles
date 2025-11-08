@@ -20,11 +20,11 @@ windows:
       - gemini
 
   - name: client-claude
-    root: ~/development/word-battle-server
+    root: ~/development/word-battle-client
     commands:
       - claude
 
   - name: client-gemini
-    root: ~/development/word-battle-server
+    root: ~/development/word-battle-client
     commands:
       - gemini
