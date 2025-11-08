@@ -6,6 +6,8 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+alias claude="/Users/jeff/.claude/local/claude"
+
 alias python=python3
 alias pip=pip3
 
