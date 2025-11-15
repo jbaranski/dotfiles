@@ -19,7 +19,7 @@ windows:
     commands:
       - ssh admin@192.168.88.1
 
-  - name: newport/turkishroyal
+  - name: newport/turkishsilver
     layout: even-vertical
     commands:
       - ssh 192.168.77.5
