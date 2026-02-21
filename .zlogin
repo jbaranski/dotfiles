@@ -24,6 +24,8 @@ alias gitmain="git checkout main && git pull origin main"
 alias gitbranch="f() { git branch \$1; git checkout \$1; }; f"
 alias gitbranchdel="git branch | grep -v "master" | grep -v "main" | xargs git branch -D"
 
+alias noheic='f() { for f in *.HEIC; do sips -s format png "$f" --out "${f%.HEIC}.png"; done }; f'
+
 source <(fzf --zsh)
 FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --exact'
 
