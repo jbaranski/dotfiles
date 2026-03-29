@@ -17,7 +17,7 @@ windows:
   - name: turkishroyal
     root: ~
     commands:
-      - ssh admin@192.168.88.1
+      - ssh -i ~/.ssh/<TODO: pub file> admin@192.168.88.1
 
   - name: newport/turkishsilver
     layout: even-vertical
