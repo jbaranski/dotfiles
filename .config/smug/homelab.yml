@@ -14,17 +14,22 @@ windows:
     commands:
       - ssh jeff@192.168.66.5
 
+  - name: turkishgold
+    root: ~
+    commands:
+      - ssh jeff@192.168.55.5
+
   - name: turkishroyal
     root: ~
     commands:
       - ssh -i ~/.ssh/<TODO: pub file> admin@192.168.88.1
 
-  - name: newport/turkishsilver
-    layout: even-vertical
-    commands:
-      - ssh 192.168.77.5
-    panes:
-      - type: horizontal
-        root: ~
-        commands:
-          - ssh 192.168.66.5
+  # - name: newport/turkishsilver
+  #   layout: even-vertical
+  #   commands:
+  #     - ssh 192.168.77.5
+  #   panes:
+  #     - type: horizontal
+  #       root: ~
+  #       commands:
+  #         - ssh 192.168.66.5
